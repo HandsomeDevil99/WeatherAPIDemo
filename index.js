@@ -6,10 +6,7 @@ app.get('/', function(req, res) {
   res.send(fakeWeatherData[0]);
 })
 
-// GET route
-app.get('/', function(req, res) {
-  res.send({'hello': 'world'})
-})
+
 
 // Listen on port 3000
 app.listen(3000, function() {
